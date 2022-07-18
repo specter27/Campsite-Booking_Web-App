@@ -1,0 +1,42 @@
+[
+  {
+    "siteNumber":625, 
+    "equipment":["Single Tent", "3 Tents", "Trailer upto 18ft"],
+    "hasPower":true, 
+    "isPremium":true, 
+    "isRadioFree": true,
+    "image":"https://picsum.photos/id/1020/430/268"
+  },
+  {
+    "siteNumber":505,
+    "equipment":["Single Tent"],
+    "hasPower":false,
+    "isPremium":false,
+    "isRadioFree": false,
+    "image":"https://picsum.photos/id/1015/430/268"
+  },
+  { 
+   "siteNumber":578,
+   "equipment":["Single Tent", "3 Tents"],
+   "hasPower":true,
+   "isPremium":true,
+   "isRadioFree": true,
+   "image":"https://picsum.photos/id/1043/430/268"
+  },
+  {
+    "siteNumber":601,
+    "equipment":["Single Tent", "3 Tents", "Trailer upto 18ft"],
+    "hasPower":true,
+    "isRadioFree": false,
+    "isPremium":true,
+    "image":"https://picsum.photos/id/1061/430/268"
+  },
+  {
+    "siteNumber":988,
+    "equipment":["Single Tent"],
+    "hasPower":true,
+    "isRadioFree": false,
+    "isPremium":true,
+    "image":"https://picsum.photos/id/1061/430/268"
+  }
+]

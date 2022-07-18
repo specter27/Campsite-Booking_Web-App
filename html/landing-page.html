@@ -5,8 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing-Page Campsites</title>
+
+      <!-- External stylesheet -->
+   <link rel="stylesheet" href="/css/landing-page.css"/>
 </head>
 <body>
+
+     <!-- Header -->
+     <header>
+        <nav>
+            <ul>
+                <!-- id attribute uniquely identifies one element on the -->
+                <li><a href="campsite_list-page.html">Reserve a Site</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class = "main-container">
+            <p class="heading">
+                Search for CAMPSITE as per your requirements.
+            </p>
+            <div class = "form-container">
+                <div class="filters">
+                    <label>equipment type</label>
+                    <select id = "equipment-filter">         
+                    </select>
+                </div>
+                <div class="filters">
+                    <label>nights</label>
+                    <select id = "nights-filter">        
+                    </select>
+                </div>
+                <button id="reserve-button">Search</button>
+            </div>
+    </main>
     
+    <!-- javascript  -->
+    <script type="text/javascript" src="/js/landing-page.js"></script>
 </body>
 </html>

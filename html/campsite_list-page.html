@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Third Party(Bootstrap) icon library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <title>Campsite list</title>
+
+     <!-- External stylesheet -->
+   <link rel="stylesheet" href="/css/campsite_list.css"/>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <!-- id attribute uniquely identifies one element on the -->
+                <li><a href="#">Reserve a Site</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section class = "subsections">
+
+        <nav>
+            <ul>
+                <!-- id attribute uniquely identifies one element on the -->
+                <li class = "navigation-indicator"><a id="nav-links" href="#">1. choose a site</a></li>
+                <li class = "navigation-indicator"><a id="nav-links" href="#">2. review and pay</a></li>
+            </ul>
+        </nav>
+
+    </section>
+    
+
+    <!-- Filter section -->
+    <section class = "subsections">
+        <div  class="filters">
+            <p>Filter by equipment: </p>
+            <select id = "equipment-filter">
+            </select>
+        </div> 
+
+        <div class="filters">
+            <p>Filter by available nights: </p>
+            <select id = "nights-filter">
+            </select>
+        </div> 
+    </section>
+
+    <!-- Camplist section -->
+    <div id = "campsite-list" class = "subsections">
+        
+    </div>
+
+    
+
+    
+
+    <!-- javascript  -->
+    <script type="text/javascript" src="/js/campsite_list.js"></script>
+</body>
+</html>
