@@ -1,5 +1,5 @@
 # About
-This is a Campsite Booking Web-Application for Web.
+This is a Campsite Booking Web-Application.
 
 
 # Description Campsite Booking Web-Application
